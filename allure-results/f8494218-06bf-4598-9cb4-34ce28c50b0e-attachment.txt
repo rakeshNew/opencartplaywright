@@ -1,0 +1,75 @@
+Error searching for product: locator.fill: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('input[aria-label="Search"]')
+    - waiting for navigation to finish...
+    - navigated to "https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=motorola"
+    - waiting for" https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=motorola" navigation to finish...
+    - navigated to "https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=motorola"
+    - waiting for" https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=iphone" navigation to finish...
+    - navigated to "https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=iphone"
+    - waiting for" https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=mackbook" navigation to finish...
+    - navigated to "https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=mackbook"
+
+    at HomePage.searchProduct (C:\Users\rakes\automation-worspace\opencartplaywright\pages\HomePage.ts:73:33)
+    at C:\Users\rakes\automation-worspace\opencartplaywright\tests\SearchProducts.spec.ts:49:20 {
+  [Symbol(step)]: {
+    location: {
+      file: 'C:\\Users\\rakes\\automation-worspace\\opencartplaywright\\pages\\HomePage.ts',
+      line: 73,
+      column: 33,
+      function: 'HomePage.searchProduct'
+    },
+    category: 'pw:api',
+    title: `Fill "MacBook" locator('input[aria-label="Search"]')`,
+    apiName: 'locator.fill',
+    params: {
+      selector: 'input[aria-label="Search"]',
+      value: 'MacBook',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@35',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@35',
+      _title: `Fill "MacBook" locator('input[aria-label="Search"]')`,
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1764349977159,
+    error: {
+      message: 'Error: locator.fill: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('input[aria-label="Search"]')\x1B[22m\n` +
+        '\x1B[2m    - waiting for navigation to finish...\x1B[22m\n' +
+        '\x1B[2m    - navigated to "https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=motorola"\x1B[22m\n' +
+        '\x1B[2m    - waiting for" https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=motorola" navigation to finish...\x1B[22m\n' +
+        '\x1B[2m    - navigated to "https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=motorola"\x1B[22m\n' +
+        '\x1B[2m    - waiting for" https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=iphone" navigation to finish...\x1B[22m\n' +
+        '\x1B[2m    - navigated to "https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=iphone"\x1B[22m\n' +
+        '\x1B[2m    - waiting for" https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=mackbook" navigation to finish...\x1B[22m\n' +
+        '\x1B[2m    - navigated to "https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=mackbook"\x1B[22m\n',
+      stack: 'Error: locator.fill: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('input[aria-label="Search"]')\x1B[22m\n` +
+        '\x1B[2m    - waiting for navigation to finish...\x1B[22m\n' +
+        '\x1B[2m    - navigated to "https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=motorola"\x1B[22m\n' +
+        '\x1B[2m    - waiting for" https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=motorola" navigation to finish...\x1B[22m\n' +
+        '\x1B[2m    - navigated to "https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=motorola"\x1B[22m\n' +
+        '\x1B[2m    - waiting for" https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=iphone" navigation to finish...\x1B[22m\n' +
+        '\x1B[2m    - navigated to "https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=iphone"\x1B[22m\n' +
+        '\x1B[2m    - waiting for" https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=mackbook" navigation to finish...\x1B[22m\n' +
+        '\x1B[2m    - navigated to "https://naveenautomationlabs.com/opencart/index.php?route=product/search&search=mackbook"\x1B[22m\n' +
+        '\n' +
+        '    at HomePage.searchProduct (C:\\Users\\rakes\\automation-worspace\\opencartplaywright\\pages\\HomePage.ts:73:33)\n' +
+        '    at C:\\Users\\rakes\\automation-worspace\\opencartplaywright\\tests\\SearchProducts.spec.ts:49:20',
+      cause: undefined
+    }
+  }
+}

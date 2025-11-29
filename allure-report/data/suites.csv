@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","10371","Login with valid credentials @master @sanity @regressiom","chromium","Thu Nov 27 16:00:37 CST 2025","passed","Thu Nov 27 16:00:48 CST 2025","","Login.spec.ts","",""
+"","6916","Account Registration Test","chromium","Wed Nov 26 23:26:03 CST 2025","passed","Wed Nov 26 23:26:10 CST 2025","","AccountRegistration.spec.ts","",""
+"","11863","Login with valid credentials","chromium","Thu Nov 27 15:06:36 CST 2025","passed","Thu Nov 27 15:06:48 CST 2025","","Login.spec.ts","",""
+"","9945","has title","chromium","Wed Nov 26 17:24:51 CST 2025","passed","Wed Nov 26 17:25:01 CST 2025","","example.spec.ts","",""
+"","1366","get started link","chromium","Wed Nov 26 17:25:10 CST 2025","passed","Wed Nov 26 17:25:11 CST 2025","","example.spec.ts","",""
